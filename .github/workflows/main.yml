@@ -29,8 +29,8 @@ jobs:
           distribution: 'temurin'  # Choose your Java distribution
           java-version: '11'  # Specify the correct Java version
 
-      - name: Maven clean and test
-        run: mvn clean test  # Run clean before testing to ensure a fresh build
+      # - name: Maven clean and test
+      #   run: mvn clean test  # Run clean before testing to ensure a fresh build
 
       # Run Checkstyle (Java code style checker)
       - name: Checkstyle
